@@ -1,0 +1,14 @@
+{
+    "name": "crawler",
+    "version": "1.0.0",
+    "description": "crawl videos",
+    "main": "main.js",
+    "scripts": {
+        "test": "casperjs main.js --sites=sohu --types=movie,tv --action=crawlRank"
+    },
+    "dependencies": {
+        "async": "1.0.0",
+        "moment": "2.10.3",
+        "underscore": "1.8.3"
+    }
+}
